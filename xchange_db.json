@@ -1,0 +1,26 @@
+{
+    "users": {
+        "admin": {
+            "password": "admin",
+            "role": "Адміністратор",
+            "name": "Системний Адмін"
+        },
+        "trader1": {
+            "password": "123",
+            "role": "Трейдер",
+            "name": "Іван (Крипто-аналітик)"
+        },
+        "manager": {
+            "password": "1234",
+            "role": "Трейдер",
+            "name": "Панчишин Володимир"
+        }
+    },
+    "accounts": {
+        "ACC1000": {
+            "client_name": "Панчишин Володимир",
+            "balance": "100",
+            "history": []
+        }
+    }
+}
