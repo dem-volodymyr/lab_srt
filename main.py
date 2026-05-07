@@ -16,15 +16,8 @@ class XchangeSystem:
             with open(DB_FILE, 'r', encoding='utf-8') as f:
                 return json.load(f)
         else:
-            default_db = {
-                "users": {
-                    "admin": {"password": "admin", "role": "Адміністратор", "name": "Системний Адмін"},
-                    "trader1": {"password": "123", "role": "Трейдер", "name": "Іван (Крипто-аналітик)"}
-                },
-                "accounts": {}
-            }
-            self.save_data(default_db)
-            return default_db
+            print('error')
+            return None
 
     def save_data(self, data=None):
         """Збереження стану бази даних у JSON"""
